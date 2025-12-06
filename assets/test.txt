@@ -1,0 +1,322 @@
+test
+
+
+✅ Loaded model from: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\unetplusplus-efficientnet-b6_s0_CELosschiangri-new28class_6B_huggi(30)_new2.pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [05:19<00:00,  1.28s/it]
+
+===== Test Results =====
+Average Test Loss : 1.1209
+Average Test mIoU : 36.16%
+Class-wise IoU:
+  background: nan%
+  Bareland  : 19.05%
+  Grass     : 34.18%
+  Pavement  : 31.40%
+  Road      : 22.96%
+  Tree      : 55.01%
+  Water     : 17.41%
+  Cropland  : 37.47%
+  buildings : 51.08%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [04:28<00:00,  3.73it/s]
+
+✅ Overall Pixel Accuracy: 57.97%
+
+===== Testing Completed Successfully! =====
+
+
+
+
+
+
+
+
+✅ Loaded weights: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\u-efficientnet-b5_s0_CELoss8class_5B_huggi(30).pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [03:31<00:00,  1.18it/s]
+
+===== Test Results =====
+Average Test Loss : 0.7148
+Average Test mIoU : 53.90%
+Class-wise IoU:
+  background  : nan%
+  Bareland    : 31.58%
+  Grass       : 47.63%
+  Pavement    : 45.77%
+  Road        : 55.49%
+  Tree        : 62.06%
+  Water       : 32.42%
+  Cropland    : 54.88%
+  buildings   : 74.98%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [02:42<00:00,  6.14it/s]
+
+✅ Overall Pixel Accuracy: 75.87%
+
+===== Testing Completed =====
+
+
+
+
+
+
+
+✅ Loaded weights: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\u-efficientnet-b6_s0_CELoss.pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [03:55<00:00,  1.06it/s]
+
+===== Test Results =====
+Average Test Loss : 0.6569
+Average Test mIoU : 55.74%
+Class-wise IoU:
+  background  : nan%
+  Bareland    : 39.31%
+  Grass       : 47.53%
+  Pavement    : 47.24%
+  Road        : 57.96%
+  Tree        : 62.34%
+  Water       : 38.82%
+  Cropland    : 61.44%
+  buildings   : 73.75%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [03:07<00:00,  5.34it/s]
+
+✅ Overall Pixel Accuracy: 76.45%
+
+===== Testing Completed =====
+
+
+
+
+
+
+
+
+
+
+
+
+✅ Loaded weights: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\u-efficientnet-b4_s0_CELoss_pretrained.pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [02:59<00:00,  1.39it/s]
+
+===== Test Results =====
+Average Test Loss : 0.6799
+Average Test mIoU : 57.26%
+Class-wise IoU:
+  background  : nan%
+  Bareland    : 47.78%
+  Grass       : 50.95%
+  Pavement    : 50.18%
+  Road        : 53.69%
+  Tree        : 62.88%
+  Water       : 43.43%
+  Cropland    : 66.01%
+  buildings   : 74.51%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [02:19<00:00,  7.18it/s]
+
+✅ Overall Pixel Accuracy: 78.04%
+
+===== Testing Completed =====
+
+
+
+
+
+✅ Loaded weights: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\u-efficientnet-b7_s0_CELoss.pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [04:44<00:00,  1.14s/it]
+
+===== Test Results =====
+Average Test Loss : 0.6217
+Average Test mIoU : 56.53%
+Class-wise IoU:
+  background  : nan%
+  Bareland    : 37.45%
+  Grass       : 49.28%
+  Pavement    : 48.76%
+  Road        : 54.23%
+  Tree        : 63.66%
+  Water       : 36.15%
+  Cropland    : 65.65%
+  buildings   : 78.14%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [03:47<00:00,  4.40it/s]
+
+✅ Overall Pixel Accuracy: 77.85%
+
+===== Testing Completed =====
+
+
+
+
+
+✅ Loaded weights: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\u-efficientnet-b7_s0_CELoss_60.34.pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [04:41<00:00,  1.13s/it]
+
+===== Test Results =====
+Average Test Loss : 0.6919
+Average Test mIoU : 54.70%
+Class-wise IoU:
+  background  : nan%
+  Bareland    : 38.65%
+  Grass       : 48.30%
+  Pavement    : 44.71%
+  Road        : 57.90%
+  Tree        : 62.58%
+  Water       : 32.70%
+  Cropland    : 62.06%
+  buildings   : 73.33%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [03:48<00:00,  4.38it/s]
+
+✅ Overall Pixel Accuracy: 75.69%
+
+===== Testing Completed =====
+
+
+
+
+
+✅ Loaded weights: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\unetplusplus-efficientnet-b6_s0_CELossnonechiang8class_B6(30).pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [05:13<00:00,  1.26s/it]
+
+===== Test Results =====
+Average Test Loss : 0.9906
+Average Test mIoU : 39.30%
+Class-wise IoU:
+  background  : nan%
+  Bareland    : 17.19%
+  Grass       : 36.06%
+  Pavement    : 37.73%
+  Road        : 39.19%
+  Tree        : 53.98%
+  Water       : 15.49%
+  Cropland    : 38.97%
+  buildings   : 48.23%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [04:25<00:00,  3.77it/s]
+
+✅ Overall Pixel Accuracy: 62.13%
+
+===== Testing Completed =====
+
+
+
+
+✅ Loaded weights: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\unetplusplus-efficientnet-b6_s0_CELosschiangri-new8class_6B_huggi+chiangrai(30).pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [05:13<00:00,  1.26s/it]
+
+===== Test Results =====
+Average Test Loss : 1.0221
+Average Test mIoU : 38.70%
+Class-wise IoU:
+  background  : nan%
+  Bareland    : 13.40%
+  Grass       : 35.69%
+  Pavement    : 33.91%
+  Road        : 38.49%
+  Tree        : 54.41%
+  Water       : 11.05%
+  Cropland    : 36.72%
+  buildings   : 53.86%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [04:25<00:00,  3.77it/s]
+
+✅ Overall Pixel Accuracy: 61.18%
+
+===== Testing Completed =====
+
+
+
+
+✅ Loaded weights: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\unetplusplus-efficientnet-b6_s0_CELosschiangri-new28class_6B_huggi(30)_new2.pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [05:14<00:00,  1.26s/it]
+
+===== Test Results =====
+Average Test Loss : 1.1209
+Average Test mIoU : 36.16%
+Class-wise IoU:
+  background  : nan%
+  Bareland    : 19.05%
+  Grass       : 34.18%
+  Pavement    : 31.40%
+  Road        : 22.96%
+  Tree        : 55.01%
+  Water       : 17.41%
+  Cropland    : 37.47%
+  buildings   : 51.08%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [04:25<00:00,  3.77it/s]
+
+✅ Overall Pixel Accuracy: 57.97%
+
+===== Testing Completed =====
+
+
+
+
+✅ Loaded weights: C:\Users\SE\Desktop\MFULCMP_8class\MFU_LCMP\weight\unetplusplus-efficientnet-b6_s0_CELosschiangri-new8class_6B_huggi+chiangrai(30).pth
+🧩 Test samples found: 1000
+
+===== Start Testing =====
+Testing: 100%|██████████| 250/250 [05:12<00:00,  1.25s/it]
+
+===== Test Results =====
+Average Test Loss : 1.0221
+Average Test mIoU : 38.70%
+Class-wise IoU:
+  background  : nan%
+  Bareland    : 13.40%
+  Grass       : 35.69%
+  Pavement    : 33.91%
+  Road        : 38.49%
+  Tree        : 54.41%
+  Water       : 11.05%
+  Cropland    : 36.72%
+  buildings   : 53.86%
+
+===== Calculating Pixel Accuracy =====
+Pixel Accuracy: 100%|██████████| 1000/1000 [04:25<00:00,  3.77it/s]
+
+✅ Overall Pixel Accuracy: 61.18%
+
+===== Testing Completed =====
+
+
+
+
+

@@ -1,0 +1,32 @@
+import { test, expect } from '@playwright/test';
+
+test('CF-001', async ({ page }) => {
+  await page.goto('https://zeus-ai-xi.vercel.app/packages');
+  await page.getByRole('button', { name: 'ใช้เลย' }).nth(1).click();
+  await page.getByRole('textbox', { name: 'ชื่อบริษัท/ร้านค้า' }).click();
+  await page.getByRole('textbox', { name: 'ชื่อบริษัท/ร้านค้า' }).fill('Testcompany');
+  await page.getByRole('textbox', { name: 'ประเภทธุรกิจ' }).click();
+  await page.getByRole('textbox', { name: 'ประเภทธุรกิจ' }).fill('ai');
+  await page.getByRole('textbox', { name: 'ผู้ติดต่อหลัก' }).click();
+  await page.getByRole('textbox', { name: 'ผู้ติดต่อหลัก' }).fill('Sirisak Vongsawat');
+  await page.getByRole('textbox', { name: 'อีเมลติดต่อ' }).click();
+  await page.getByRole('textbox', { name: 'อีเมลติดต่อ' }).fill('sirisak49276@gmail.com');
+  await page.getByRole('textbox', { name: 'เบอร์โทรศัพท์' }).click();
+  await page.getByRole('textbox', { name: 'เบอร์โทรศัพท์' }).fill('0897849276');
+  await page.getByRole('textbox', { name: 'เวลาเริ่มให้บริการ' }).click();
+  await page.getByRole('textbox', { name: 'เวลาเริ่มให้บริการ' }).fill('17:50');
+  await page.getByRole('checkbox', { name: 'Line' }).check();
+  await page.getByRole('button', { name: 'ถัดไป' }).click();
+  await page.getByRole('button', { name: 'เลือกไฟล์' }).click();
+  await page.getByRole('button', { name: 'ถัดไป' }).click();
+  await page.getByRole('button', { name: 'ไปยังขั้นตอนที่ 3' }).click();
+  await page.getByRole('textbox', { name: 'ชื่อ AI' }).click();
+  await page.getByRole('textbox', { name: 'ชื่อ AI' }).fill('TestAi');
+  await page.getByRole('textbox', { name: 'ข้อความต้อนรับ' }).click();
+  await page.getByRole('textbox', { name: 'ข้อความต้อนรับ' }).fill('ยินดีต้อนรับ');
+  await page.getByRole('button', { name: 'ถัดไป' }).click();
+  await page.getByRole('radio', { name: 'PayPal' }).check();
+  await page.getByRole('button', { name: 'ถัดไป' }).click();
+  await page.getByRole('button', { name: 'ชำระเงิน' }).click();
+  await page.getByRole('button', { name: 'Generate API Key' }).click();
+});
